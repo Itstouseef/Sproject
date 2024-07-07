@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvBookingDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Booking Details"
+        android:textSize="18sp"
+        android:padding="8dp" />
+
+    <TextView
+        android:id="@+id/tvTourNameRecord"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tour Name"
+        android:padding="8dp" />
+
+    <TextView
+        android:id="@+id/tvTourDateRecord"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tour Date"
+        android:padding="8dp" />
+
+    <TextView
+        android:id="@+id/tvPaymentMethodRecord"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Payment Method"
+        android:padding="8dp" />
+</LinearLayout>
